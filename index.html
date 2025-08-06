@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/style.css">
+    <title>collapsible sidebar</title>
+</head>
+
+<body class="dark-theme">
+
+    <div class="sidebar">
+        <header class="sidebar-header">
+            <img src="./images/elevvopaths_logo.jpeg" alt="elevvopaths_logo" class="header-logo">
+            <button class="sidebar-toggle">
+                <span> <i class='bx  bx-chevron-left'></i> </span>
+            </button>
+        </header>
+
+        <div class="sidebar-content">
+            <!-- Search form -->
+            <form action="#" class="search-form">
+                <span><i class='bx  bx-search'></i> </span>
+                <input type="search" placeholder="Search..." required>
+            </form>
+            <!-- Menu list -->
+            <ul class="menu-list">
+                <li class="menu-item">
+                    <a href="#" class="menu-link">
+                        <span><i class='bx bx-home'></i> </span>
+                        <span class="menu-lable">Home</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">
+                        <span><i class='bx bx-user'></i> </span>
+                        <span class="menu-lable">Profile</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">
+                        <span><i class='bx bx-cog'></i> </span>
+                        <span class="menu-lable">Settings</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">
+                        <span><i class='bx bx-message-square-dots'></i> </span>
+                        <span class="menu-lable">Messages</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">
+                        <span><i class='bx bx-bell'></i> </span>
+                        <span class="menu-lable">Notifications</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">
+                        <span><i class='bx bx-log-out'></i> </span>
+                        <span class="menu-lable">Logout</span>
+                    </a>
+                </li>
+            </ul>
+
+
+        </div>
+        <!-- Sidebar footer -->
+        <div class="sidebar-footer">
+            <button class="theme-toggle">
+                <div class="theme-lable">
+                    <span><i class='theme-icon bx bx-moon'></i> </span>
+                    <span class="theme-text">Dark Mode</span>
+                </div>
+                <div class="theme-toggle-track">
+                    <div class="theme-toggle-indicator"></div>
+                </div>
+            </button>
+        </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
